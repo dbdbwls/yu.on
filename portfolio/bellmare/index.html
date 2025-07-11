@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>벨마레 리조트</title>
+
+  <link rel="shortcut icon" href="img/main/favicon.png" type="image/x-icon">
+
+  <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/font.css">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+
+<body>
+  <div class="wrap">
+    <header id="header">
+      <div class="inner">
+        <h1>
+          <a href="index.html">
+            <img src="img/header/logo.png" alt="logo">
+          </a>
+        </h1>
+
+        <nav>
+          <ul class="gnb">
+            <li><a href="sub/identity.html">리조트소개</a>
+              <ul class="depth2">
+                <li><a href="sub/identity.html">벨마레</a></li>
+                <li><a href="sub/identity.html">외부전경</a></li>
+                <li><a href="sub/identity.html">부대시설</a></li>
+                <li><a href="sub/identity.html">오시는 길</a></li>
+              </ul>
+            </li>
+            <li><a href="sub/room.html">객실</a>
+              <ul class="depth2">
+                <li><a href="sub/room.html">Standard</a></li>
+                <li><a href="sub/room.html">Deluxe</a></li>
+                <li><a href="sub/room.html">Premier</a></li>
+                <li><a href="sub/room.html">Suite</a></li>
+                <li><a href="sub/room.html">Royal</a></li>
+              </ul>
+            </li>
+            <li><a href="sub/dining.html">다이닝</a>
+              <ul class="depth2">
+                <li><a href="sub/dining.html">Bm Morning</a></li>
+                <li><a href="sub/dining.html">Bm Dining</a></li>
+                <li><a href="sub/dining.html">Lounge Bar</a></li>
+              </ul>
+            </li>
+            <li><a href="sub/membership.html">멤버십</a>
+              <ul class="depth2">
+                <li><a href="sub/membership.html">Basic</a></li>
+                <li><a href="sub/membership.html">Premium</a></li>
+                <li><a href="sub/membership.html">Elite</a></li>
+              </ul>
+            </li>
+            <li><a href="sub/customer.html">소식</a>
+              <ul class="depth2">
+                <li><a href="sub/customer.html">이벤트</a></li>
+                <li><a href="sub/customer.html">공지사항</a></li>
+                <li><a href="sub/customer.html">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="icon">
+          <a href="sub/login.html">
+            <img src="img/header/icon1.png" alt="로그인">
+          </a>
+          <a href="#">
+            <img src="img/header/icon2.png" alt="예약">
+          </a>
+          <select name="KR" id="select">
+            <option selected><a href="#">
+                KR
+              </a></option>
+            <option value="ENGLISH"><a href="#">
+                EN
+              </a></option>
+            <option value="JAPANISE"><a href="#">
+                JA
+              </a></option>
+          </select>
+        </div><!-- icon -->
+
+        <div class="ham">
+          <img src="img/header/ham.png" alt="메뉴보기">
+        </div>
+      </div><!-- inner -->
+    </header>
+
+    <div class="mgnb_wrap">
+      <div class="wrap">
+        <div class="top">
+          <div class="login">
+            <a href="sub/login.html">
+              <img src="img/header/icon1.png" alt="로그인">
+            </a>
+            <a href="#">로그인</a>
+          </div>
+          <div class="reser">
+            <a href="#">
+              <img src="img/header/icon2.png" alt="예약하기">
+            </a>
+            <a href="#">예약하기</a>
+          </div><!-- reser -->
+        </div><!-- top -->
+
+        <ul class="mgnb">
+          <li><a href="sub/identity.html">리조트소개</a>
+            <ul class="mdepth2">
+              <li><a href="sub/identity.html">벨마레</a></li>
+              <li><a href="sub/identity.html">외부전경</a></li>
+              <li><a href="sub/identity.html">부대시설</a></li>
+              <li><a href="sub/identity.html">오시는 길</a></li>
+            </ul>
+          </li>
+          <li><a href="sub/room.html">객실</a>
+            <ul class="mdepth2">
+              <li><a href="sub/room.html">Standard</a></li>
+              <li><a href="sub/room.html">Deluxe</a></li>
+              <li><a href="sub/room.html">Premier</a></li>
+              <li><a href="sub/room.html">Suite</a></li>
+              <li><a href="sub/room.html">Royal</a></li>
+            </ul>
+          </li>
+          <li><a href="sub/dining.html">다이닝</a>
+            <ul class="mdepth2">
+              <li><a href="sub/dining.html">BM MORNING</a></li>
+              <li><a href="sub/dining.html">BM DINING</a></li>
+              <li><a href="sub/dining.html">LOUNGE BAR</a></li>
+            </ul>
+          </li>
+          <li><a href="sub/membership.html">멤버십</a>
+            <ul class="mdepth2">
+              <li><a href="sub/membership.html">Basic</a></li>
+              <li><a href="sub/membership.html">Premium</a></li>
+              <li><a href="sub/membership.html">Elite</a></li>
+            </ul>
+          </li>
+          <li><a href="sub/customer.html">소식</a>
+            <ul class="mdepth2">
+              <li><a href="sub/customer.html">이벤트</a></li>
+              <li><a href="sub/customer.html">공지사항</a></li>
+              <li><a href="sub/customer.html">FAQ</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- wrap -->
+
+      <div class="close">
+        <img src="img/header/close.png" alt="닫기">
+      </div>
+    </div><!-- mgnb_wrap -->
+
+    <main id="main">
+      <section class="banner">
+        <div class="swiper banner_list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide slide01">
+              <div class="txt">
+                <h2>The BellMare Resort</h2>
+                <p>시간이 천천히 흐르는 공간에서 몸과 마음을 재충전하세요.</p>
+              </div>
+            </li>
+            <li class="swiper-slide slide02">
+              <div class="txt">
+                <h2>Rest And Stability</h2>
+                <p>천천히 흐르는 시간 속에서 깊은 휴식과 평온을 누리세요.</p>
+              </div>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+
+          <div class="month">
+            <div class="date">
+              <input type="date">
+              <div class="p_txt">
+                <p>Check-in</p>
+                <p>날짜 선택</p>
+              </div>
+            </div><!-- date -->
+            <div class="da">
+              <input type="date">
+              <div class="p_txt">
+                <p>Check-out</p>
+                <p>날짜 선택</p>
+              </div>
+            </div><!-- da -->
+            <div class="room">
+              <select name="room" id="r1">
+                <option selected>Room 1</option>
+                <option value="room2">Room 2</option>
+                <option value="room3">Room 3</option>
+                <option value="room4">Room 4</option>
+                <option value="room5">Room 5</option>
+              </select>
+            </div><!-- room -->
+            <div class="adult">
+              <select name="adult" id="a1">
+                <option selected>Adult 1</option>
+                <option value="adult2">Adult 2</option>
+                <option value="adult3">Adult 3</option>
+                <option value="adult4">Adult 4</option>
+                <option value="adult5">Adult 5</option>
+              </select>
+            </div><!-- adult -->
+            <div class="chil">
+              <select name="chil" id="c1">
+                <option selected>Children 1</option>
+                <option value="children 2">Children 2</option>
+                <option value="children 3">Children 3</option>
+                <option value="children 4">Children 4</option>
+                <option value="children 5">Children 5</option>
+              </select>
+            </div><!-- adult -->
+            <button>
+              <img src="img/main/search_icon.png" alt="검색하기">
+              <span>Search</span>
+            </button>
+          </div><!-- month -->
+        </div>
+      </section><!-- banner -->
+
+      <section class="identity">
+        <div class="txt">
+          <div class="top">
+            <img src="img/main/identity_logo.png" alt="로고">
+          </div><!-- top -->
+
+          <div class="bottom">
+            <p>제주의 자연과 조화를 이루며 몸과 마음이 온전히 쉬어갈 수 있는 <br>
+              프라이빗 럭셔리 리조트입니다. </p>
+            <p>머무는 순간마다 편안함과 감동을 선사하는<br>
+              “벨마레”에서 제주만의 여유로운 시간을 만나보세요.</p>
+          </div><!-- bottom -->
+        </div><!-- txt -->
+      </section><!-- identity -->
+
+      <section class="place">
+        <div class="wrap">
+          <div class="place_txt">
+            <div>
+              <div class="swiper txt_list">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <h2>Infinity pool</h2>
+                    <strong>자연으로 초대하겠습니다.</strong>
+                    <p>제주도의 아름다운 자연 경관을 감상하며<br>
+                      휴식을 취할 수 있는 고급스러운 공간입니다.</p>
+                    <div class="btn_more">
+                      <a href="#">View more</a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <h2>Fitness Center</h2>
+                    <strong>마음은 편안하게, 몸은 활기차게 </strong>
+                    <p>제주의 자연이 한 눈에 보이는 쾌적한 환경에서<br>
+                      몸과 마음의 에너지를 충전하세요.</p>
+                    <div class="btn_more">
+                      <a href="#">View more</a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <h2>Yoga Center</h2>
+                    <strong>마음은 고요하게, 몸은 유연하게</strong>
+                    <p>아늑한 공간에서 마음을 편안히 하며 고요한 시간을<br>
+                      즐겨보세요.</p>
+                    <div class="btn_more">
+                      <a href="#">View more</a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <h2>Walking Space</h2>
+                    <strong>눈이 즐거운 산책 Time</strong>
+                    <p>제주도의 아름다운 자연 경관을 감상하며<br>
+                      편안한 시간을 보내세요.</p>
+                    <div class="btn_more">
+                      <a href="#">View more</a>
+                    </div>
+                  </li>
+                  <li class="swiper-slide">
+                    <h2>Roof Top Bar</h2>
+                    <strong>여유로운 시간과 함께 추억을 쌓으세요.</strong>
+                    <p>해질녘, 가장 아름다운 순간으로 초대합니다. <br> 자연과 하나 되어 분위기에 스며들어 보세요.</p>
+                    <div class="btn_more">
+                      <a href="#">View more</a>
+                    </div>
+                  </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="place_img">
+            <div class="swiper pimg_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <img src="img/main/place01.jpg" alt="Infinity pool">
+                </li>
+                <li class="swiper-slide">
+                  <img src="img/main/place02.jpg" alt="Fitness Center">
+                </li>
+                <li class="swiper-slide">
+                  <img src="img/main/place03.jpg" alt="Yoga Center">
+                </li>
+                <li class="swiper-slide">
+                  <img src="img/main/place04.jpg" alt="Walking Space">
+                </li>
+                <li class="swiper-slide">
+                  <img src="img/main/place05.jpg" alt="Roof Top Bar">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- wrap -->
+      </section><!-- place -->
+
+      <section class="dining">
+        <div class="inner">
+          <h2>Dining</h2>
+          <strong>“벨마레” 리조트의 고급스러운 다이닝으로 여러분을 모시겠습니다. </strong>
+
+          <div class="swiper dining_list">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <img src="img/main/dining01.jpg" alt="음식 사진">
+              </li>
+              <li class="swiper-slide">
+                <img src="img/main/dining02.jpg" alt="음식 사진">
+              </li>
+              <li class="swiper-slide">
+                <img src="img/main/dining03.jpg" alt="음식 사진">
+              </li>
+              <li class="swiper-slide">
+                <img src="img/main/dining04.jpg" alt="음식 사진">
+              </li>
+              <li class="swiper-slide">
+                <img src="img/main/dining05.jpg" alt="음식 사진">
+              </li>
+              <li class="swiper-slide">
+                <img src="img/main/dining06.jpg" alt="음식 사진">
+              </li>
+              <li class="swiper-slide">
+                <img src="img/main/dining07.jpg" alt="음식 사진">
+              </li>
+            </ul>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div class="btn_more">
+            <a href="sub/dining.html">View more</a>
+          </div>
+        </div><!-- inner -->
+      </section><!-- dining -->
+
+      <section class="room active">
+        <h2>BellMare Rooms</h2>
+        <ul>
+          <li class="l1 active">
+            <h3 class="tit1 active">Standard</h3>
+            <div class="s_txt">
+              <p>Standard 객실은 2인 기준으로<br>
+                제주 자연의 아름다움을 감상하며 편안한 휴식을 취하실 수 있습니다.</p>
+              <div class="btn_more">
+                <a href="sub/room.html">View more</a>
+              </div>
+            </div><!-- s_txt -->
+          </li>
+          <li class="l2">
+            <h3 class="tit2">Deluxe</h3>
+            <div class="d_txt">
+              <p>Deluxe 객실은 3인 기준으로, <br>
+                발코니가 포함되어 제주의 자연을 더욱 가까이서 느끼실 수 있습니다.</p>
+              <div class="btn_more">
+                <a href="sub/room.html">View more</a>
+              </div>
+            </div><!-- s_txt -->
+          </li>
+          <li class="l3">
+            <h3 class="tit3">Premier</h3>
+            <div class="p_txt">
+              <p>Premier 객실은 넓고 고급스러운 공간과 아름다운 전망을 제공합니다. <br>
+                고급 어메니티와 편리한 시설로 편안한 휴식을 경험해보세요.</p>
+              <div class="btn_more">
+                <a href="sub/room.html">View more</a>
+              </div>
+            </div><!-- s_txt -->
+          </li>
+          <li class="l4">
+            <h3 class="tit4">Suite</h3>
+            <div class="u_txt">
+              <p>Suite 객실은 넓고 고급스러운 인테리어로 우아한 공간을 제공합니다. <br>
+                또한 개인적인 프라이버시를 보장하는 구조로 여유롭고 편안한 시간을 보내실 수 있습니다.</p>
+              <div class="btn_more">
+                <a href="sub/room.html">View more</a>
+              </div>
+            </div><!-- s_txt -->
+          </li>
+          <li class="l5">
+            <h3 class="tit5">Royal</h3>
+            <div class="r_txt">
+              <p>Royal Suite 객실은 넓은 공간으로 구성되어 제주 바다를 한 눈에 담을 수 있는 프리미엄 전망을 보실 수 있습니다. <br>
+                또한 고급 가구와 세련된 디자인으로 최상의 편안함을 제공합니다.</p>
+              <div class="btn_more">
+                <a href="sub/room.html">View more</a>
+              </div>
+            </div><!-- s_txt -->
+          </li>
+        </ul>
+      </section><!-- room -->
+
+      <section class="member">
+        <div class="inner">
+          <div class="left">
+            <img src="img/main/membership.jpg" alt="멤버십 카드 이미지">
+          </div><!-- left -->
+          <div class="right">
+            <div class="member_txt">
+              <h2>Membership</h2>
+              <strong>"벨마레" 리조트의 멤버십으로 다양한 혜택을 받아보세요.</strong>
+            </div><!-- member_txt -->
+            <div class="p_txt">
+              <p>회원 등급에 따라 숙박 할인, 스파 서비스, 레스토랑 이용 혜택 등 <br>
+                더욱 풍성한 혜택을 경험을 하실 수 있습니다.</p>
+            </div><!-- p_txt -->
+            <div class="btn_more">
+              <a href="sub/membership.html">View more</a>
+            </div><!-- btn_more -->
+          </div><!-- right -->
+        </div><!-- inner -->
+      </section><!-- member -->
+
+      <section class="event">
+        <h2>Event</h2>
+        <div class="swiper event_list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <img src="img/main/event01.jpg" alt="이벤트 사진">
+              <dl>
+                <dt>Healthy Yoga 이벤트</dt>
+                <dd class="d1">2025.01.01 ~ 2025.05.16</dd>
+                <dd class="d2">하루를 상쾌하고 가벼운 몸으로 시작하세요. <br>
+                  요가로 몸과 마음을 풀며, 편안한 하루를 위한 <br>
+                  첫걸음을 내디뎌 보세요.</dd>
+                <div class="btn_more">
+                  <a href="#">View more</a>
+                </div>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <img src="img/main/event02.jpg" alt="이벤트 사진">
+              <dl>
+                <dt>제주 관광지 할인 혜택</dt>
+                <dd class="d1">2025.02.08 ~ 2025.12.31</dd>
+                <dd class="d2">벨마레 리조트에 숙박하시고 <br>
+                  관광지에서 다양한 혜택을 받아보세요!</dd>
+                <div class="btn_more">
+                  <a href="#">View more</a>
+                </div>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <img src="img/main/event03.jpg" alt="이벤트 사진">
+              <dl>
+                <dt>Welcome Drink</dt>
+                <dd class="d1">2025.01.01 ~ 2025.12.31</dd>
+                <dd class="d2">먼 길 오신 여러분을 환영하며, 웰컴 드링크를 <br>
+                  준비했습니다. 편안한 여행을 시작하세요.</dd>
+                <div class="btn_more">
+                  <a href="#">View more</a>
+                </div>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <img src="img/main/event01.jpg" alt="이벤트 사진">
+              <dl>
+                <dt>Healthy Yoga 이벤트</dt>
+                <dd class="d1">2025.01.01 ~ 2025.05.16</dd>
+                <dd class="d2">하루를 상쾌하고 가벼운 몸으로 시작하세요. <br>
+                  요가로 몸과 마음을 풀며, 편안한 하루를 위한 <br>
+                  첫걸음을 내디뎌 보세요.</dd>
+                <div class="btn_more">
+                  <a href="#">View more</a>
+                </div>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <img src="img/main/event02.jpg" alt="이벤트 사진">
+              <dl>
+                <dt>제주 관광지 할인 혜택</dt>
+                <dd class="d1">2025.02.08 ~ 2025.12.31</dd>
+                <dd class="d2">벨마레 리조트에 숙박하시고 <br>
+                  관광지에서 다양한 혜택을 받아보세요!</dd>
+                <div class="btn_more">
+                  <a href="#">View more</a>
+                </div>
+              </dl>
+            </li>
+            <li class="swiper-slide">
+              <img src="img/main/event03.jpg" alt="이벤트 사진">
+              <dl>
+                <dt>Welcome Drink</dt>
+                <dd class="d1">2025.01.01 ~ 2025.12.31</dd>
+                <dd class="d2">먼 길 오신 여러분을 환영하며, 웰컴 드링크를 <br>
+                  준비했습니다. 편안한 여행을 시작하세요.</dd>
+                <div class="btn_more">
+                  <a href="#">View more</a>
+                </div>
+              </dl>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div><!-- swiper -->
+      </section><!-- event -->
+
+      <section class="info">
+        <div class="txt">
+          <h2>Infomation</h2>
+          <strong>보다 편리한 이용을 위한 안내 사항</strong>
+        </div><!-- txt -->
+
+        <ul>
+          <li>
+            <a href="#">
+              <img src="img/main/info01.png" alt="공지사항">
+              <p>공지사항</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/main/info02.png" alt="공지사항">
+              <p>문의사항</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/main/info03.png" alt="공지사항">
+              <p>오시는 길</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/main/info04.png" alt="공지사항">
+              <p>주차장 안내</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/main/info05.png" alt="공지사항">
+              <p>셔틀버스 안내</p>
+            </a>
+          </li>
+        </ul>
+      </section><!-- info -->
+    </main>
+
+    <footer id="footer">
+      <div class="inner">
+        <div class="top">
+          <div class="left">
+            <img src="img/footer/logo.png" alt="로고">
+          </div><!-- left -->
+          <div class="right">
+            <ul>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">정보처리운영관리지침</a></li>
+              <li><a href="#">이메일무단수집금지</a></li>
+              <li><a href="#">관리자</a></li>
+            </ul>
+            <div class="txt">
+              <div class="top">
+                <p>
+                  <span>대표 </span>
+                  <span> 정유진</span>
+                </p>
+                <p>
+                  <span>TEL </span>
+                  <span> 064-123-4567</span>
+                </p>
+              </div><!-- top -->
+              <div class="be">
+                <p>
+                  <span>E-mail </span>
+                  <span> dltmfdlgh@gmail.com</span>
+                </p>
+                <p>
+                  <span>사업자번호 </span>
+                  <span> 123-23-43210</span>
+                </p>
+              </div><!-- be -->
+              <address>
+                <span>주소 </span>
+                <span> 제주특별자치도 제주시 애월읍 중앙대로 708</span>
+              </address>
+            </div><!-- txt -->
+          </div><!-- right -->
+        </div><!-- top -->
+
+        <div class="bottom">
+          <div class="left">
+            <div class="copy">
+              Copyrigh©BELLMARE RESORT All rights reserved.
+            </div>
+          </div><!-- left -->
+          <div class="right">
+            <a href="#">
+              <img src="img/footer/insta.png" alt="인스타">
+            </a>
+            <a href="#">
+              <img src="img/footer/kakao.png" alt="카카오톡">
+            </a>
+            <a href="#">
+              <img src="img/footer/call.png" alt="전화">
+            </a>
+          </div><!-- right -->
+        </div><!-- bottom -->
+      </div><!-- inner -->
+    </footer>
+  </div>
+</body>
+
+</html>
