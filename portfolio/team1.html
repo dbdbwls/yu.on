@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기업 반응형웹 디자인 및 코딩</title>
+
+    <style>
+        a{text-decoration: none; color: inherit;}
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            /* background: #483932; */
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 991px;
+        }
+
+        .top img{width: 50px; height: auto; position: fixed; bottom: 20px; right: 20px;}
+        .ii{position: fixed; bottom: 150px; right: 20px; /* background: #000; color: #fff; */ border: 1px solid #000; color: #000;} 
+        .ii a{display: inline-block; padding: 10px 30px;}
+        .hk{position: fixed; bottom: 100px; right: 20px; /* background: #000; color: #fff; */ border: 1px solid #000; color: #000;}
+        .hk a{display: inline-block; padding: 10px 30px;}
+
+.ii:hover {
+    color: #fff;
+}
+
+.ii:hover::after {
+    width: 100%;
+}
+
+.ii::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #000;
+}
+
+.hk:hover {
+    color: #fff;
+}
+
+.hk:hover::after {
+    width: 100%;
+}
+
+.hk::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #000;
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+    <div class="picture">
+        <img src="../img/main/ii_hk.jpg" alt="디자인 가이드">
+    </div>
+
+    <div class="ii">
+        <a href="http://58.239.58.243:50801/meta7/3i/" target="_blank" rel="noopener noreferrer">트리플아이</a>
+    </div>
+
+    <div class="hk">
+        <a href="http://58.239.58.243:50801/meta7/hk/" target="_blank" rel="noopener noreferrer">현강이엔지</a>
+    </div>
+    <div class="top">
+        <a href="#top">
+            <img src="../img/common/top_b.png" alt="위로가기">
+        </a>
+    </div>
+    </div>
+</body>
+</html>

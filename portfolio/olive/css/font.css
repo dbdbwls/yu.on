@@ -1,0 +1,8 @@
+@charset "urf-8";
+
+  @font-face {
+    font-family: 'SunBatang';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}

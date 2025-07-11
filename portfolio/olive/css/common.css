@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+:root{
+  --main-color: #c9c9af;
+  --sub-color: #cdc7c7;
+  --batang: #fefdfb;
+  --font-color: #222;
+  --font-sub: #424242;
+  --font: "Pretandard";
+}
+
+body{overflow-x: hidden; font-family: "SunBatang" , serif; font-weight: 400; line-height: 1.5; font-size: 1.6rem; color: #000;}
+.inner{max-width: 1670px; margin: 0 auto; padding: 0 20px;}
+
+
+
+/* header */
+#header{z-index: 2; position: absolute; top: 0; left: 0; width: 100%; padding-top: 40px;}
+#header .inner{display: flex; justify-content: space-between; align-items: center;}
+#header h1 img{width: 230px;}
+#header nav{font-family: var(--font);}
+#header .gnb{display: flex; color: var(--font-color);}
+#header .gnb > li > a{display: inline-block; font-size: 1.8rem; padding: 10px 40px;}
+
+#header .gnb > li{position: relative;}
+#header .gnb > li .depth2{position: absolute; width: 100%; text-align: center; display: none;}
+#header .gnb > li .depth2 li a{display: block; padding: 5px; transition: all 0.5s;}
+#header .gnb > li .depth2 li a:hover{color: var(--main-color);}
+
+#header .mgnb_wrap{position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #f8f8f8; padding: 150px; display: none;}
+#header .mgnb_wrap .mgnb{border-top: 2px solid #000;}
+#header .mgnb_wrap .mgnb > li{font-size: 3rem; border-bottom: 1px solid #999; padding: 20px 0;}
+#header .mgnb_wrap .mdepth2 li{font-size: 2rem; padding-left: 20px; display: none;}
+#header .mgnb_wrap .close{position: absolute; top: 60px; right: 160px; background: none; cursor: pointer;}
+#header .mgnb_wrap .close img{width: 80%;}
+
+#header .cs a{display: inline-block; padding: 10px 30px; border-radius: 50px; border: 1px solid #222;}
+
+
+#header .ham{background: none; display: none; cursor: pointer;}
+
+@media(max-width: 1230px){
+  #header h1 img{width: 200px;}
+  #header nav{margin-right: 0;}
+  #header .gnb{display: none;}
+  #header .cs{display: none;}
+  #header .ham{display: block;}
+}
+
+@media(max-width: 768px){
+  #header h1 img{width: 170px;}
+}
+
+
+
+
+
+/* footer */
+#footer{background: #484242; padding: 45px 0 70px;}
+#footer .inner{display: flex; justify-content: space-between; flex-wrap: wrap; font-family: var(--font); font-weight: 500;}
+#footer .center{color: #999;}
+#footer .center span{display: inline-block; margin-right: 20px; margin-bottom: 10px;}
+#footer .center .copy{margin-top: 10px;}
+#footer .right{display: flex; align-items: center; gap: 10px;}
+
+@media(max-width: 1000px){
+  #footer .inner{gap: 100px;}
+}
+
+@media(max-width: 768px){
+  #footer .inner{gap: 50px;}
+}
